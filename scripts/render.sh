@@ -69,4 +69,6 @@ function eval() {
     --gin_bindings="Config.spiral_scale_r = 0.4"
 }
 
-eval pondbike
+#render pondbike && eval pondbike
+render chinesearch && eval chinesearch
+render eliothall && eval eliothall
