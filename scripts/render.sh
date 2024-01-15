@@ -70,6 +70,7 @@ function eval() {
 }
 
 #render pondbike && eval pondbike
-render chinesearch && eval chinesearch
-#render eliothall && eval eliothall
-#render strat2 && eval strat2
+#render chinesearch && eval chinesearch
+render pavilion && eval pavilion
+render eliothall && eval eliothall
+render strat2 && eval strat2
