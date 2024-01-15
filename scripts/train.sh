@@ -2,7 +2,7 @@
 
 # *** Please replace /path/to/dataset with your dataset path
 DATA_DIR_PREFIX="/home/wenri/pCloudDrive/ResearchProjects/REMAP/nerf_yuehao/"
-CHECKPOINT_PREFIX="/media/p5mem/nerf/LLNeRF/nerf_results/llnerf/llnerf__"
+CHECKPOINT_PREFIX="/home/wenri/pCloudDrive/ResearchProjects/REMAP/nerf_results/llnerf/llnerf__"
 LOG_PREFIX="logs/llnerf__"
 
 function train() {
@@ -74,8 +74,8 @@ function refine() {
 }
 
 # and replace scene_name with your scene name.
-train pavilion && refine pavilion
-train strat2 && refine strat2
+#train pavilion && refine pavilion
+#train strat2 && refine strat2
 train sysstatue && refine sysstatue
 train xuesihall && refine xuesihall
 train flowercart && refine flowercart

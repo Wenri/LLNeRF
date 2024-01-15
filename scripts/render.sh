@@ -3,8 +3,8 @@
 # *** Please replace /path/to/dataset with your dataset path
 # and replace scene_name with your scene name.
 DATA_DIR_PREFIX="/home/wenri/pCloudDrive/ResearchProjects/REMAP/nerf_yuehao/"
-CHECKPOINT_PREFIX="/media/p5mem/nerf/LLNeRF/nerf_results/llnerf/llnerf__"
-RENDIR_DIR_PREFIX="./nerf_results/llnerf/llnerf__"
+CHECKPOINT_PREFIX="/home/wenri/pCloudDrive/ResearchProjects/REMAP/nerf_results/llnerf/llnerf__"
+RENDIR_DIR_PREFIX="${CHECKPOINT_PREFIX}"
 
 function render() {
   SCENE_NAME="$1"
@@ -71,4 +71,5 @@ function eval() {
 
 #render pondbike && eval pondbike
 render chinesearch && eval chinesearch
-render eliothall && eval eliothall
+#render eliothall && eval eliothall
+#render strat2 && eval strat2
