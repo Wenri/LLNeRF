@@ -1,0 +1,3 @@
+[submodule "internal/pycolmap"]
+  path = internal/pycolmap
+  url = https://github.com/rmbrualla/pycolmap.git
