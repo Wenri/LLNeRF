@@ -71,6 +71,7 @@ function eval() {
 
 #render pondbike && eval pondbike
 #render chinesearch && eval chinesearch
-render pavilion && eval pavilion
+#render pavilion && eval pavilion
+render sysstatue && eval sysstatue
 render eliothall && eval eliothall
 render strat2 && eval strat2

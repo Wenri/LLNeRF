@@ -76,6 +76,6 @@ function refine() {
 # and replace scene_name with your scene name.
 #train pavilion && refine pavilion
 #train strat2 && refine strat2
-train sysstatue && refine sysstatue
-train xuesihall && refine xuesihall
+#train sysstatue && refine sysstatue
+#train xuesihall && refine xuesihall
 train flowercart && refine flowercart
