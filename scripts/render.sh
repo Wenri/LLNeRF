@@ -74,7 +74,7 @@ function eval() {
 #render pavilion && eval pavilion
 #render sysstatue && eval sysstatue
 #render eliothall && eval eliothall
-#render strat2 && eval strat2
+render strat2 && eval strat2
 #render xuesihall && eval xuesihall
 #render flowercart && eval flowercart
-render lionpavilion && eval lionpavilion
+#render lionpavilion && eval lionpavilion

@@ -72,11 +72,12 @@ function eval() {
     --gin_bindings="Config.spiral_scale_r = 0.4"
 }
 
+render lionpavilion && eval lionpavilion
 render pondbike && eval pondbike
 render chinesearch && eval chinesearch
-#render pavilion && eval pavilion
-#render sysstatue && eval sysstatue
-#render eliothall && eval eliothall
-#render strat2 && eval strat2
-#render xuesihall && eval xuesihall
-#render flowercart && eval flowercart
+render pavilion && eval pavilion
+render sysstatue && eval sysstatue
+render eliothall && eval eliothall
+render strat2 && eval strat2
+render xuesihall && eval xuesihall
+render flowercart && eval flowercart
